@@ -15,6 +15,16 @@
 
   "permissions": [ "tabs", "cookies", "*://*/*" ],
   "browser_action": {
-    "default_title": "Go to Dev.Opera!"
+    "default_title": "Xdebug helper"
+  },
+  "commands": {
+    "toggle_debug_action": {
+      "suggested_key": {
+        "default": "Alt+Shift+X",
+        "windows": "Alt+Shift+X",
+        "mac": "Alt+Shift+X"
+      },
+      "description": "Toggle between the debug states"
+    }
   }
 }
